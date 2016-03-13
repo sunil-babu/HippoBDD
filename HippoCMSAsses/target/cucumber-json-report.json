@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1957334564,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user already logged in to Hippo",
+            "match": {
+              "location": "dashboardPage.user_already_logged_in_to_Hippo()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2107810073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dashboardPage.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Succesfully Navigating to Create Document Page",
+        "description": "",
+        "id": "create-and-publish-news-document;succesfully-navigating-to-create-document-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4973383805,
+              "status": "passed"
+            },
+            "match": {
+              "location": "dashboardPage.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3920092114,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user in dashboard page",
+            "match": {
+              "location": "dashboardPage.user_wants_to_publish_data_to_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 110051341,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks create a News Document",
+            "match": {
+              "location": "dashboardPage.the_user_clicks_create_a_News_Document()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4602662684,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "then user enters all the valid data and saves the document",
+            "match": {
+              "location": "dashboardPage.then_user_enters_all_the_valid_data_and_saves_the_document()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1817621018,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "publishes the document",
+            "match": {
+              "location": "dashboardPage.publishes_the_document()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6073103494,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the data should be published to website",
+            "match": {
+              "location": "dashboardPage.the_data_should_be_published_to_website()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create and Publish News document",
+    "description": "Description: Verify user is able to create a new document and publish it to website",
+    "id": "create-and-publish-news-document",
+    "keyword": "Feature",
+    "uri": "CreateDocument.feature"
+  }
+]
